@@ -13,12 +13,12 @@ import { left, right, display } from './pendulum.js'
   }
 
   // start the metronome
-  for (let i = 1; true;) {
+  for (let i = 1; true; i++) {
     // render the pendulum
-    console.log(++i % 2 === 0 ? right : left)
+    console.log(i % 2 === 0 ? right : left)
 
     // render the bpm display
-    console.log(display.replace('{{}}', String(bpm)))
+    console.log(display.replace('bpm', bpm))
 
     // play the beat
     process.stdout.write('\x07')

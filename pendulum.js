@@ -54,6 +54,6 @@ export const left =
 
 export const display =
   "\n" +
-  "                                    {{}}                                        \n"
+  "                                    bpm                                         \n"
 
 export default { left, right }
