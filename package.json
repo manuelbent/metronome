@@ -1,0 +1,26 @@
+{
+  "name": "metronome",
+  "version": "0.0.0",
+  "description": "A simple CLI metronome.",
+  "main": "metronome.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelbent/metronome.git"
+  },
+  "keywords": [
+    "metronome",
+    "music",
+    "cli",
+    "guitar",
+    "practice"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelbent/metronome/issues"
+  },
+  "homepage": "https://github.com/manuelbent/metronome#readme"
+}
