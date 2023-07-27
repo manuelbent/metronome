@@ -2,9 +2,10 @@
   "name": "metronome",
   "version": "0.0.0",
   "description": "A simple CLI metronome.",
-  "main": "metronome.js",
+  "main": "./src/metronome.js",
   "type": "module",
   "scripts": {
+    "start": "node ./src/metronome.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
