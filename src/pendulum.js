@@ -1,4 +1,4 @@
-export const right =
+const right =
   "\n"+
   "                                                                                \n" +
   "                               @@@@@@@@@@@@@@                                   \n" +
@@ -24,7 +24,7 @@ export const right =
   "                                                                                \n" +
   "                                                                                "
 
-export const left =
+const left =
   "\n"+
   "                                                                                \n" +
   "                               @@@@@@@@@@@@@@                                   \n" +
@@ -50,8 +50,8 @@ export const left =
   "                                                                                \n" +
   "                                                                                "
 
-export const display =
+const display =
   "\n" +
   "                                    bpm                                         \n"
 
-export default { left, right }
+export { left, right, display }
